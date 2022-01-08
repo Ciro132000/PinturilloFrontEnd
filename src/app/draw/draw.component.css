@@ -1,0 +1,35 @@
+:host{
+    padding: 1rem;
+    display: block;
+    }
+
+    canvas{
+        background-color: white;
+        border: 3px solid #9C27B0;
+        border-radius: 7px;
+        box-shadow: 
+            0 0px 3.3px rgba(0, 0, 0, 0.017),
+            0 0px 7.9px rgba(0, 0, 0, 0.024),
+            0 0px 14.9px rgba(0, 0, 0, 0.03),
+            0 0px 26.6px rgba(0, 0, 0, 0.036),
+            0 0px 49.7px rgba(0, 0, 0, 0.043),
+            0 0px 119px rgba(0, 0, 0, 0.06)
+        ;
+    }
+
+    .zone-btn{
+        width: 100%;
+        display: flex;
+        margin-top: .5rem;
+    }
+
+    .zone-btn button{
+        background-color: white;
+        border: solid 1px #e6e6e6;
+        padding: .5rem;
+        border-radius: .25rem;
+        margin-right: .5rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+        box-shadow: 0 0 10px #e2e2e2 ; 
+    }
